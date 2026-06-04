@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+open_llama_3b/
+.cache/
+results/experiment_log.db
+annotator_A.txt
+annotator_B.txt
+annotator_C.txt
+annotation_sheet.txt
+*.log

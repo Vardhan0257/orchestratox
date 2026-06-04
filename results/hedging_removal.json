@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "n_scenarios": 13,
+    "n_trials_per_scenario": 50,
+    "mean_payload_hedge_density": 0.591715976331361,
+    "mean_summary_hedge_density": 0.4937730433079209,
+    "mean_density_reduction": 0.0979429330234401,
+    "density_reduction_ci_95": [
+      -0.3525552498778618,
+      1.0981142583802022
+    ],
+    "reduction_rate": 0.15384615384615385,
+    "mean_semantic_similarity": 0.8680559546499717,
+    "wilcoxon_stat": 25.0,
+    "wilcoxon_p": 0.9267578125,
+    "verdict": "NOT CONFIRMED: Hedging reduction not statistically significant."
+  },
+  "per_scenario": [
+    {
+      "domain": "healthcare AI diagnosis system",
+      "payload_hedge_density": 3.8461538461538463,
+      "summary_hedge_density": 0.29501229955557223,
+      "density_reduction": 3.551141546598274,
+      "reduction_pct": 92.32968021155511,
+      "semantic_similarity_mean": 0.863733981802795,
+      "n_trials": 50
+    },
+    {
+      "domain": "content moderation platform",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 1.0004943249002685,
+      "density_reduction": -1.0004943249002685,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8919836077253496,
+      "n_trials": 50
+    },
+    {
+      "domain": "autonomous code deployment",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.7686103163340708,
+      "density_reduction": -0.7686103163340708,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8828269671384952,
+      "n_trials": 50
+    },
+    {
+      "domain": "legal document processing",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.04603174603174603,
+      "density_reduction": -0.04603174603174603,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8717382656580517,
+      "n_trials": 50
+    },
+    {
+      "domain": "supply chain management",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.36825232629022225,
+      "density_reduction": -0.36825232629022225,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.9083005043664012,
+      "n_trials": 50
+    },
+    {
+      "domain": "cybersecurity incident response",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.19724576788162185,
+      "density_reduction": -0.19724576788162185,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8819735425266613,
+      "n_trials": 50
+    },
+    {
+      "domain": "HR candidate screening",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.03225806451612903,
+      "density_reduction": -0.03225806451612903,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8446892229058821,
+      "n_trials": 50
+    },
+    {
+      "domain": "customer data management",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.6426513772849798,
+      "density_reduction": -0.6426513772849798,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.891528350233156,
+      "n_trials": 50
+    },
+    {
+      "domain": "smart home automation",
+      "payload_hedge_density": 3.8461538461538463,
+      "summary_hedge_density": 2.1140309467358014,
+      "density_reduction": 1.7321228994180449,
+      "reduction_pct": 45.03519538486916,
+      "semantic_similarity_mean": 0.8764108158882018,
+      "n_trials": 50
+    },
+    {
+      "domain": "academic research assistant",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.028985507246376812,
+      "density_reduction": -0.028985507246376812,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.735858848313562,
+      "n_trials": 50
+    },
+    {
+      "domain": "e-commerce recommendation",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.7105344934264727,
+      "density_reduction": -0.7105344934264727,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8845894724234219,
+      "n_trials": 50
+    },
+    {
+      "domain": "insurance claim processing",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.10229722967411066,
+      "density_reduction": -0.10229722967411066,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8776847810724914,
+      "n_trials": 50
+    },
+    {
+      "domain": "government permit approval",
+      "payload_hedge_density": 0.0,
+      "summary_hedge_density": 0.11264516312559918,
+      "density_reduction": -0.11264516312559918,
+      "reduction_pct": 0,
+      "semantic_similarity_mean": 0.8734090503951636,
+      "n_trials": 50
+    }
+  ]
+}
