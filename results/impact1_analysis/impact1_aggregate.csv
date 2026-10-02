@@ -1,0 +1,9 @@
+condition,depth,successes,total,rate
+ProxyPipeline,0,0,150,0.0
+ProxyPipeline,1,2,150,0.013333333333333334
+ProxyPipeline,2,88,150,0.5866666666666667
+ProxyPipeline,3,100,150,0.6666666666666666
+HistoryAccumulation,0,8,150,0.05333333333333334
+HistoryAccumulation,1,3,150,0.02
+HistoryAccumulation,2,109,150,0.7266666666666667
+HistoryAccumulation,3,129,150,0.86

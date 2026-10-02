@@ -8,7 +8,6 @@ import os
 import re
 import time
 from pathlib import Path
-
 import numpy as np
 from openai import OpenAI
 
@@ -26,9 +25,6 @@ SCENARIO_FILE = Path(
     "results/scenario_bank_human_reviewed.json"
 )
 
-OUTPUT_FILE = Path(
-    "results/frontier_framework_comparison.json"
-)
 
 API_KEY = os.getenv("OPENAI_API_KEY")
 
@@ -39,6 +35,7 @@ if not API_KEY:
 
 client = OpenAI(api_key=API_KEY)
 
+global COST_TRACKER
 COST_TRACKER = {
     "input_tokens": 0,
     "output_tokens": 0,
@@ -70,26 +67,25 @@ TEMPERATURES = [
 ]
 
 
-def call_gpt(
-    messages,
-    model=MODEL,
-    temperature=0.0,
-    max_tokens=180,
-):
-    response = client.chat.completions.create(
-        model=model,
-        messages=messages,
-        temperature=temperature,
-        max_tokens=max_tokens,
-    )
+def call_gpt(messages, model=MODEL, temperature=0.0, max_tokens=180):
 
-    COST_TRACKER["input_tokens"] += (
-        response.usage.prompt_tokens
-    )
+    kwargs = {
+        "model": model,
+        "messages": messages,
+    }
 
-    COST_TRACKER["output_tokens"] += (
-        response.usage.completion_tokens
-    )
+    if not model.startswith("gpt-5"):
+        kwargs["temperature"] = temperature
+
+    if model.startswith("gpt-5"):
+        kwargs["max_completion_tokens"] = max_tokens
+    else:
+        kwargs["max_tokens"] = max_tokens
+
+    response = client.chat.completions.create(**kwargs)
+
+    COST_TRACKER["input_tokens"] += response.usage.prompt_tokens
+    COST_TRACKER["output_tokens"] += response.usage.completion_tokens
 
     return response.choices[0].message.content
 
@@ -326,6 +322,7 @@ def run_history_pipeline(
     scenario,
     depth,
     temperature,
+    model=MODEL,
 ):
     research_content, analysis_content = (
         build_inputs(scenario, depth)
@@ -489,7 +486,9 @@ def summarize_results(all_results):
     return summary
 
 
-def main():
+def run_experiment(model):
+    COST_TRACKER["input_tokens"] = 0
+    COST_TRACKER["output_tokens"] = 0
     scenarios = load_scenarios()
 
     trials_per_condition = (
@@ -576,6 +575,7 @@ def main():
                         scenario,
                         depth,
                         temperature,
+                        model=model,
                     )
 
                     orchestrator_output = (
@@ -619,6 +619,7 @@ def main():
                         "condition": (
                             result["condition"]
                         ),
+                        "model": model,
                         "depth": depth,
                         "trial": trial,
                         "temperature": (
@@ -653,7 +654,9 @@ def main():
     summary = summarize_results(
         all_results
     )
-
+    output_file = Path(
+    f"results/frontier_framework_comparison_{model.replace('.', '_')}.json"
+        )
     output = {
         "experiment": (
             "frontier_production_proxy_pilot"
@@ -661,7 +664,7 @@ def main():
             else
             "frontier_production_proxy_full"
         ),
-        "model": MODEL,
+        "model": model,
         "pilot_mode": PILOT_MODE,
         "scenario_file": str(
 	    SCENARIO_FILE
@@ -690,12 +693,12 @@ def main():
         "all_results": all_results,
     }
 
-    OUTPUT_FILE.parent.mkdir(
+    output_file.parent.mkdir(
         parents=True,
         exist_ok=True,
     )
 
-    with OUTPUT_FILE.open(
+    with output_file.open(
         "w",
         encoding="utf-8",
     ) as file:
@@ -762,7 +765,7 @@ def main():
 
     print(
         f"Saved to: "
-        f"{OUTPUT_FILE}"
+        f"{output_file}"
     )
 
     if PILOT_MODE:
@@ -774,6 +777,13 @@ def main():
             "\nFULL EXPERIMENT COMPLETED"
         )
 
+def main():
+    for model in MODELS:
+        print("\n" + "=" * 72)
+        print(f"Running model: {model}")
+        print("=" * 72)
+
+        run_experiment(model)
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,9 @@
+{
+  "model": "gpt-4.1-mini",
+  "domain": "healthcare AI diagnosis system",
+  "scenario_id": "4286c0f7",
+  "condition": "clean_smoke_test",
+  "response": "{\"action\": \"request more info\", \"confidence\": 0.9}",
+  "input_tokens": 96,
+  "output_tokens": 16
+}

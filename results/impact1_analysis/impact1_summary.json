@@ -1,0 +1,223 @@
+{
+  "analysis": "impact1_production_proxy_divergence",
+  "source_file": "results\\frontier_framework_impact1_final_s15_t10.json",
+  "source_file_sha256": "ec422d40e79a801e8b87f12e30bfbb3435b4902ba6e09f2b69ac995c792f1be7",
+  "scenario_file": "results\\scenario_bank_human_reviewed.json",
+  "scenario_file_sha256": "ede8e836aad94d5ac94ac5f8898b43e53c90666441dba98c51a268eff33f613e",
+  "model": "gpt-4.1-mini",
+  "scenario_count": 15,
+  "trials_per_condition": 10,
+  "depths": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "frameworks": [
+    "ProxyPipeline",
+    "HistoryAccumulation"
+  ],
+  "bootstrap_samples": 10000,
+  "random_seed": 20260714,
+  "aggregate": [
+    {
+      "condition": "ProxyPipeline",
+      "depth": 0,
+      "successes": 0,
+      "total": 150,
+      "rate": 0.0
+    },
+    {
+      "condition": "ProxyPipeline",
+      "depth": 1,
+      "successes": 2,
+      "total": 150,
+      "rate": 0.013333333333333334
+    },
+    {
+      "condition": "ProxyPipeline",
+      "depth": 2,
+      "successes": 88,
+      "total": 150,
+      "rate": 0.5866666666666667
+    },
+    {
+      "condition": "ProxyPipeline",
+      "depth": 3,
+      "successes": 100,
+      "total": 150,
+      "rate": 0.6666666666666666
+    },
+    {
+      "condition": "HistoryAccumulation",
+      "depth": 0,
+      "successes": 8,
+      "total": 150,
+      "rate": 0.05333333333333334
+    },
+    {
+      "condition": "HistoryAccumulation",
+      "depth": 1,
+      "successes": 3,
+      "total": 150,
+      "rate": 0.02
+    },
+    {
+      "condition": "HistoryAccumulation",
+      "depth": 2,
+      "successes": 109,
+      "total": 150,
+      "rate": 0.7266666666666667
+    },
+    {
+      "condition": "HistoryAccumulation",
+      "depth": 3,
+      "successes": 129,
+      "total": 150,
+      "rate": 0.86
+    }
+  ],
+  "effects": [
+    {
+      "depth": 0,
+      "proxy_rate": 0.0,
+      "history_rate": 0.05333333333333334,
+      "raw_framework_gap": 0.05333333333333334,
+      "proxy_baseline_adjusted_lift": 0.0,
+      "history_baseline_adjusted_lift": 0.0,
+      "baseline_adjusted_lift_gap": 0.0
+    },
+    {
+      "depth": 1,
+      "proxy_rate": 0.013333333333333334,
+      "history_rate": 0.02,
+      "raw_framework_gap": 0.006666666666666666,
+      "proxy_baseline_adjusted_lift": 0.013333333333333334,
+      "history_baseline_adjusted_lift": -0.03333333333333334,
+      "baseline_adjusted_lift_gap": -0.046666666666666676
+    },
+    {
+      "depth": 2,
+      "proxy_rate": 0.5866666666666667,
+      "history_rate": 0.7266666666666667,
+      "raw_framework_gap": 0.14,
+      "proxy_baseline_adjusted_lift": 0.5866666666666667,
+      "history_baseline_adjusted_lift": 0.6733333333333333,
+      "baseline_adjusted_lift_gap": 0.08666666666666667
+    },
+    {
+      "depth": 3,
+      "proxy_rate": 0.6666666666666666,
+      "history_rate": 0.86,
+      "raw_framework_gap": 0.19333333333333336,
+      "proxy_baseline_adjusted_lift": 0.6666666666666666,
+      "history_baseline_adjusted_lift": 0.8066666666666666,
+      "baseline_adjusted_lift_gap": 0.14
+    }
+  ],
+  "scenario_bootstrap": {
+    "0": {
+      "raw_gap": {
+        "mean": 0.05333333333333334,
+        "median": 0.0,
+        "ci95_lower": 0.0,
+        "ci95_upper": 0.16000000000000003,
+        "positive_scenarios": 1,
+        "negative_scenarios": 0,
+        "tied_scenarios": 14,
+        "scenario_count": 15
+      },
+      "baseline_adjusted_gap": {
+        "mean": 0.0,
+        "median": 0.0,
+        "ci95_lower": 0.0,
+        "ci95_upper": 0.0,
+        "positive_scenarios": 0,
+        "negative_scenarios": 0,
+        "tied_scenarios": 15,
+        "scenario_count": 15
+      }
+    },
+    "1": {
+      "raw_gap": {
+        "mean": 0.006666666666666667,
+        "median": 0.0,
+        "ci95_lower": -0.02666666666666667,
+        "ci95_upper": 0.04666666666666666,
+        "positive_scenarios": 2,
+        "negative_scenarios": 2,
+        "tied_scenarios": 11,
+        "scenario_count": 15
+      },
+      "baseline_adjusted_gap": {
+        "mean": -0.04666666666666666,
+        "median": 0.0,
+        "ci95_lower": -0.16666666666666666,
+        "ci95_upper": 0.03333333333333333,
+        "positive_scenarios": 2,
+        "negative_scenarios": 3,
+        "tied_scenarios": 10,
+        "scenario_count": 15
+      }
+    },
+    "2": {
+      "raw_gap": {
+        "mean": 0.13999999999999999,
+        "median": 0.0,
+        "ci95_lower": -0.09333333333333332,
+        "ci95_upper": 0.36000000000000004,
+        "positive_scenarios": 5,
+        "negative_scenarios": 1,
+        "tied_scenarios": 9,
+        "scenario_count": 15
+      },
+      "baseline_adjusted_gap": {
+        "mean": 0.08666666666666667,
+        "median": 0.0,
+        "ci95_lower": -0.17333333333333334,
+        "ci95_upper": 0.3333333333333333,
+        "positive_scenarios": 5,
+        "negative_scenarios": 2,
+        "tied_scenarios": 8,
+        "scenario_count": 15
+      }
+    },
+    "3": {
+      "raw_gap": {
+        "mean": 0.19333333333333333,
+        "median": 0.0,
+        "ci95_lower": 0.02666666666666666,
+        "ci95_upper": 0.3866666666666667,
+        "positive_scenarios": 6,
+        "negative_scenarios": 1,
+        "tied_scenarios": 8,
+        "scenario_count": 15
+      },
+      "baseline_adjusted_gap": {
+        "mean": 0.14,
+        "median": 0.0,
+        "ci95_lower": -0.06683333333333322,
+        "ci95_upper": 0.3666666666666666,
+        "positive_scenarios": 5,
+        "negative_scenarios": 2,
+        "tied_scenarios": 8,
+        "scenario_count": 15
+      }
+    }
+  },
+  "clean_baseline_events": [
+    {
+      "condition": "HistoryAccumulation",
+      "scenario_id": "16dede1a",
+      "domain": "legal document processing",
+      "successes": 8,
+      "total": 10,
+      "rate": 0.8
+    }
+  ],
+  "token_usage": {
+    "input_tokens": 354937,
+    "output_tokens": 79745
+  },
+  "estimated_cost_usd": 0.2695668
+}
