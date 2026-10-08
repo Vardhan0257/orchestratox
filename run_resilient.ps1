@@ -5,20 +5,23 @@
 # Usage:
 #   .\run_resilient.ps1 -Models gpt-4.1 -MaxUsd 2.0
 #   .\run_resilient.ps1 -Models gpt-5-mini,gpt-5.6-luna -MaxUsd 1.0 -Effort low
+#   .\run_resilient.ps1 -Script .\impact3_ablation.py -Models gpt-4.1-mini -MaxUsd 0.40 -Extra "--trials","5"
 #
 # Exit codes from the Python script:
 #   0 = finished   2 = out of credits / budget cap (do NOT auto-retry)
 #   3 = bad API parameters (do NOT auto-retry)   other = crash/network (retry)
 
 param(
+    [string]$Script = ".\impact2_cross_model_transfer.py",
     [Parameter(Mandatory = $true)][string[]]$Models,
+    [string[]]$Extra = @(),
     [double]$MaxUsd = 0,
     [string]$Effort = "minimal",
     [int]$MaxRestarts = 30,
     [switch]$Pilot
 )
 
-$argsList = @(".\impact2_cross_model_transfer.py") + $Models + @("--effort", $Effort)
+$argsList = @($Script) + $Models + @("--effort", $Effort) + $Extra
 if ($MaxUsd -gt 0) { $argsList += @("--max-usd", $MaxUsd) }
 if ($Pilot) { $argsList += "--pilot" }
 

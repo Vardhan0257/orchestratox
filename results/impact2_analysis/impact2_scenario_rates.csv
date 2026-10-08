@@ -1,0 +1,601 @@
+run,condition,domain,depth,successes,trials
+gpt-4.1-mini (Impact1),HistoryAccumulation,HR candidate screening,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,HR candidate screening,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,HR candidate screening,2,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,HR candidate screening,3,9,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,academic research assistant,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,academic research assistant,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,academic research assistant,2,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,academic research assistant,3,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,autonomous code deployment,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,autonomous code deployment,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,autonomous code deployment,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,autonomous code deployment,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,content moderation platform,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,content moderation platform,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,content moderation platform,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,content moderation platform,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,customer data management,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,customer data management,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,customer data management,2,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,customer data management,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,cybersecurity incident response,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,cybersecurity incident response,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,cybersecurity incident response,2,9,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,cybersecurity incident response,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,e-commerce recommendation,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,e-commerce recommendation,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,e-commerce recommendation,2,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,e-commerce recommendation,3,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,financial fraud detection,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,financial fraud detection,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,financial fraud detection,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,financial fraud detection,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,government permit approval,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,government permit approval,1,2,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,government permit approval,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,government permit approval,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,healthcare AI diagnosis system,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,healthcare AI diagnosis system,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,healthcare AI diagnosis system,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,healthcare AI diagnosis system,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,insurance claim processing,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,insurance claim processing,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,insurance claim processing,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,insurance claim processing,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,legal document processing,0,8,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,legal document processing,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,legal document processing,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,legal document processing,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,news fact-checking system,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,news fact-checking system,1,1,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,news fact-checking system,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,news fact-checking system,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,smart home automation,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,smart home automation,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,smart home automation,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,smart home automation,3,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,supply chain management,0,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,supply chain management,1,0,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,supply chain management,2,10,10
+gpt-4.1-mini (Impact1),HistoryAccumulation,supply chain management,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,HR candidate screening,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,HR candidate screening,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,HR candidate screening,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,HR candidate screening,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,academic research assistant,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,academic research assistant,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,academic research assistant,2,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,academic research assistant,3,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,autonomous code deployment,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,autonomous code deployment,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,autonomous code deployment,2,6,10
+gpt-4.1-mini (Impact1),ProxyPipeline,autonomous code deployment,3,9,10
+gpt-4.1-mini (Impact1),ProxyPipeline,content moderation platform,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,content moderation platform,1,1,10
+gpt-4.1-mini (Impact1),ProxyPipeline,content moderation platform,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,content moderation platform,3,9,10
+gpt-4.1-mini (Impact1),ProxyPipeline,customer data management,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,customer data management,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,customer data management,2,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,customer data management,3,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,cybersecurity incident response,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,cybersecurity incident response,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,cybersecurity incident response,2,9,10
+gpt-4.1-mini (Impact1),ProxyPipeline,cybersecurity incident response,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,e-commerce recommendation,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,e-commerce recommendation,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,e-commerce recommendation,2,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,e-commerce recommendation,3,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,financial fraud detection,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,financial fraud detection,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,financial fraud detection,2,2,10
+gpt-4.1-mini (Impact1),ProxyPipeline,financial fraud detection,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,government permit approval,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,government permit approval,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,government permit approval,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,government permit approval,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,healthcare AI diagnosis system,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,healthcare AI diagnosis system,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,healthcare AI diagnosis system,2,2,10
+gpt-4.1-mini (Impact1),ProxyPipeline,healthcare AI diagnosis system,3,1,10
+gpt-4.1-mini (Impact1),ProxyPipeline,insurance claim processing,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,insurance claim processing,1,1,10
+gpt-4.1-mini (Impact1),ProxyPipeline,insurance claim processing,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,insurance claim processing,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,legal document processing,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,legal document processing,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,legal document processing,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,legal document processing,3,9,10
+gpt-4.1-mini (Impact1),ProxyPipeline,news fact-checking system,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,news fact-checking system,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,news fact-checking system,2,8,10
+gpt-4.1-mini (Impact1),ProxyPipeline,news fact-checking system,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,smart home automation,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,smart home automation,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,smart home automation,2,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,smart home automation,3,10,10
+gpt-4.1-mini (Impact1),ProxyPipeline,supply chain management,0,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,supply chain management,1,0,10
+gpt-4.1-mini (Impact1),ProxyPipeline,supply chain management,2,1,10
+gpt-4.1-mini (Impact1),ProxyPipeline,supply chain management,3,2,10
+gpt-4.1-mini,HistoryAccumulation,HR candidate screening,0,0,10
+gpt-4.1-mini,HistoryAccumulation,HR candidate screening,1,0,10
+gpt-4.1-mini,HistoryAccumulation,HR candidate screening,2,0,10
+gpt-4.1-mini,HistoryAccumulation,HR candidate screening,3,10,10
+gpt-4.1-mini,HistoryAccumulation,academic research assistant,0,0,10
+gpt-4.1-mini,HistoryAccumulation,academic research assistant,1,0,10
+gpt-4.1-mini,HistoryAccumulation,academic research assistant,2,0,10
+gpt-4.1-mini,HistoryAccumulation,academic research assistant,3,0,10
+gpt-4.1-mini,HistoryAccumulation,autonomous code deployment,0,0,10
+gpt-4.1-mini,HistoryAccumulation,autonomous code deployment,1,0,10
+gpt-4.1-mini,HistoryAccumulation,autonomous code deployment,2,10,10
+gpt-4.1-mini,HistoryAccumulation,autonomous code deployment,3,10,10
+gpt-4.1-mini,HistoryAccumulation,content moderation platform,0,0,10
+gpt-4.1-mini,HistoryAccumulation,content moderation platform,1,0,10
+gpt-4.1-mini,HistoryAccumulation,content moderation platform,2,10,10
+gpt-4.1-mini,HistoryAccumulation,content moderation platform,3,10,10
+gpt-4.1-mini,HistoryAccumulation,customer data management,0,0,10
+gpt-4.1-mini,HistoryAccumulation,customer data management,1,0,10
+gpt-4.1-mini,HistoryAccumulation,customer data management,2,0,10
+gpt-4.1-mini,HistoryAccumulation,customer data management,3,10,10
+gpt-4.1-mini,HistoryAccumulation,cybersecurity incident response,0,0,10
+gpt-4.1-mini,HistoryAccumulation,cybersecurity incident response,1,0,10
+gpt-4.1-mini,HistoryAccumulation,cybersecurity incident response,2,10,10
+gpt-4.1-mini,HistoryAccumulation,cybersecurity incident response,3,10,10
+gpt-4.1-mini,HistoryAccumulation,e-commerce recommendation,0,0,10
+gpt-4.1-mini,HistoryAccumulation,e-commerce recommendation,1,0,10
+gpt-4.1-mini,HistoryAccumulation,e-commerce recommendation,2,0,10
+gpt-4.1-mini,HistoryAccumulation,e-commerce recommendation,3,0,10
+gpt-4.1-mini,HistoryAccumulation,financial fraud detection,0,0,10
+gpt-4.1-mini,HistoryAccumulation,financial fraud detection,1,0,10
+gpt-4.1-mini,HistoryAccumulation,financial fraud detection,2,10,10
+gpt-4.1-mini,HistoryAccumulation,financial fraud detection,3,10,10
+gpt-4.1-mini,HistoryAccumulation,government permit approval,0,0,10
+gpt-4.1-mini,HistoryAccumulation,government permit approval,1,1,10
+gpt-4.1-mini,HistoryAccumulation,government permit approval,2,10,10
+gpt-4.1-mini,HistoryAccumulation,government permit approval,3,10,10
+gpt-4.1-mini,HistoryAccumulation,healthcare AI diagnosis system,0,0,10
+gpt-4.1-mini,HistoryAccumulation,healthcare AI diagnosis system,1,0,10
+gpt-4.1-mini,HistoryAccumulation,healthcare AI diagnosis system,2,10,10
+gpt-4.1-mini,HistoryAccumulation,healthcare AI diagnosis system,3,10,10
+gpt-4.1-mini,HistoryAccumulation,insurance claim processing,0,0,10
+gpt-4.1-mini,HistoryAccumulation,insurance claim processing,1,0,10
+gpt-4.1-mini,HistoryAccumulation,insurance claim processing,2,10,10
+gpt-4.1-mini,HistoryAccumulation,insurance claim processing,3,10,10
+gpt-4.1-mini,HistoryAccumulation,legal document processing,0,10,10
+gpt-4.1-mini,HistoryAccumulation,legal document processing,1,0,10
+gpt-4.1-mini,HistoryAccumulation,legal document processing,2,10,10
+gpt-4.1-mini,HistoryAccumulation,legal document processing,3,10,10
+gpt-4.1-mini,HistoryAccumulation,news fact-checking system,0,0,10
+gpt-4.1-mini,HistoryAccumulation,news fact-checking system,1,2,10
+gpt-4.1-mini,HistoryAccumulation,news fact-checking system,2,10,10
+gpt-4.1-mini,HistoryAccumulation,news fact-checking system,3,10,10
+gpt-4.1-mini,HistoryAccumulation,smart home automation,0,0,10
+gpt-4.1-mini,HistoryAccumulation,smart home automation,1,0,10
+gpt-4.1-mini,HistoryAccumulation,smart home automation,2,10,10
+gpt-4.1-mini,HistoryAccumulation,smart home automation,3,10,10
+gpt-4.1-mini,HistoryAccumulation,supply chain management,0,0,10
+gpt-4.1-mini,HistoryAccumulation,supply chain management,1,0,10
+gpt-4.1-mini,HistoryAccumulation,supply chain management,2,10,10
+gpt-4.1-mini,HistoryAccumulation,supply chain management,3,10,10
+gpt-4.1-mini,ProxyPipeline,HR candidate screening,0,0,10
+gpt-4.1-mini,ProxyPipeline,HR candidate screening,1,1,10
+gpt-4.1-mini,ProxyPipeline,HR candidate screening,2,9,10
+gpt-4.1-mini,ProxyPipeline,HR candidate screening,3,10,10
+gpt-4.1-mini,ProxyPipeline,academic research assistant,0,0,10
+gpt-4.1-mini,ProxyPipeline,academic research assistant,1,0,10
+gpt-4.1-mini,ProxyPipeline,academic research assistant,2,0,10
+gpt-4.1-mini,ProxyPipeline,academic research assistant,3,1,10
+gpt-4.1-mini,ProxyPipeline,autonomous code deployment,0,0,10
+gpt-4.1-mini,ProxyPipeline,autonomous code deployment,1,0,10
+gpt-4.1-mini,ProxyPipeline,autonomous code deployment,2,7,10
+gpt-4.1-mini,ProxyPipeline,autonomous code deployment,3,10,10
+gpt-4.1-mini,ProxyPipeline,content moderation platform,0,0,10
+gpt-4.1-mini,ProxyPipeline,content moderation platform,1,2,10
+gpt-4.1-mini,ProxyPipeline,content moderation platform,2,10,10
+gpt-4.1-mini,ProxyPipeline,content moderation platform,3,10,10
+gpt-4.1-mini,ProxyPipeline,customer data management,0,0,10
+gpt-4.1-mini,ProxyPipeline,customer data management,1,0,10
+gpt-4.1-mini,ProxyPipeline,customer data management,2,0,10
+gpt-4.1-mini,ProxyPipeline,customer data management,3,0,10
+gpt-4.1-mini,ProxyPipeline,cybersecurity incident response,0,0,10
+gpt-4.1-mini,ProxyPipeline,cybersecurity incident response,1,0,10
+gpt-4.1-mini,ProxyPipeline,cybersecurity incident response,2,10,10
+gpt-4.1-mini,ProxyPipeline,cybersecurity incident response,3,9,10
+gpt-4.1-mini,ProxyPipeline,e-commerce recommendation,0,0,10
+gpt-4.1-mini,ProxyPipeline,e-commerce recommendation,1,0,10
+gpt-4.1-mini,ProxyPipeline,e-commerce recommendation,2,0,10
+gpt-4.1-mini,ProxyPipeline,e-commerce recommendation,3,0,10
+gpt-4.1-mini,ProxyPipeline,financial fraud detection,0,0,10
+gpt-4.1-mini,ProxyPipeline,financial fraud detection,1,0,10
+gpt-4.1-mini,ProxyPipeline,financial fraud detection,2,2,10
+gpt-4.1-mini,ProxyPipeline,financial fraud detection,3,10,10
+gpt-4.1-mini,ProxyPipeline,government permit approval,0,0,10
+gpt-4.1-mini,ProxyPipeline,government permit approval,1,0,10
+gpt-4.1-mini,ProxyPipeline,government permit approval,2,10,10
+gpt-4.1-mini,ProxyPipeline,government permit approval,3,10,10
+gpt-4.1-mini,ProxyPipeline,healthcare AI diagnosis system,0,0,10
+gpt-4.1-mini,ProxyPipeline,healthcare AI diagnosis system,1,0,10
+gpt-4.1-mini,ProxyPipeline,healthcare AI diagnosis system,2,1,10
+gpt-4.1-mini,ProxyPipeline,healthcare AI diagnosis system,3,2,10
+gpt-4.1-mini,ProxyPipeline,insurance claim processing,0,0,10
+gpt-4.1-mini,ProxyPipeline,insurance claim processing,1,0,10
+gpt-4.1-mini,ProxyPipeline,insurance claim processing,2,10,10
+gpt-4.1-mini,ProxyPipeline,insurance claim processing,3,10,10
+gpt-4.1-mini,ProxyPipeline,legal document processing,0,0,10
+gpt-4.1-mini,ProxyPipeline,legal document processing,1,0,10
+gpt-4.1-mini,ProxyPipeline,legal document processing,2,10,10
+gpt-4.1-mini,ProxyPipeline,legal document processing,3,9,10
+gpt-4.1-mini,ProxyPipeline,news fact-checking system,0,0,10
+gpt-4.1-mini,ProxyPipeline,news fact-checking system,1,0,10
+gpt-4.1-mini,ProxyPipeline,news fact-checking system,2,10,10
+gpt-4.1-mini,ProxyPipeline,news fact-checking system,3,10,10
+gpt-4.1-mini,ProxyPipeline,smart home automation,0,0,10
+gpt-4.1-mini,ProxyPipeline,smart home automation,1,0,10
+gpt-4.1-mini,ProxyPipeline,smart home automation,2,10,10
+gpt-4.1-mini,ProxyPipeline,smart home automation,3,9,10
+gpt-4.1-mini,ProxyPipeline,supply chain management,0,0,10
+gpt-4.1-mini,ProxyPipeline,supply chain management,1,0,10
+gpt-4.1-mini,ProxyPipeline,supply chain management,2,2,10
+gpt-4.1-mini,ProxyPipeline,supply chain management,3,0,10
+gpt-4.1,HistoryAccumulation,HR candidate screening,0,0,10
+gpt-4.1,HistoryAccumulation,HR candidate screening,1,0,10
+gpt-4.1,HistoryAccumulation,HR candidate screening,2,10,10
+gpt-4.1,HistoryAccumulation,HR candidate screening,3,10,10
+gpt-4.1,HistoryAccumulation,academic research assistant,0,0,10
+gpt-4.1,HistoryAccumulation,academic research assistant,1,0,10
+gpt-4.1,HistoryAccumulation,academic research assistant,2,0,10
+gpt-4.1,HistoryAccumulation,academic research assistant,3,0,10
+gpt-4.1,HistoryAccumulation,autonomous code deployment,0,0,10
+gpt-4.1,HistoryAccumulation,autonomous code deployment,1,0,10
+gpt-4.1,HistoryAccumulation,autonomous code deployment,2,10,10
+gpt-4.1,HistoryAccumulation,autonomous code deployment,3,10,10
+gpt-4.1,HistoryAccumulation,content moderation platform,0,0,10
+gpt-4.1,HistoryAccumulation,content moderation platform,1,9,10
+gpt-4.1,HistoryAccumulation,content moderation platform,2,10,10
+gpt-4.1,HistoryAccumulation,content moderation platform,3,10,10
+gpt-4.1,HistoryAccumulation,customer data management,0,0,10
+gpt-4.1,HistoryAccumulation,customer data management,1,0,10
+gpt-4.1,HistoryAccumulation,customer data management,2,0,10
+gpt-4.1,HistoryAccumulation,customer data management,3,0,10
+gpt-4.1,HistoryAccumulation,cybersecurity incident response,0,0,10
+gpt-4.1,HistoryAccumulation,cybersecurity incident response,1,0,10
+gpt-4.1,HistoryAccumulation,cybersecurity incident response,2,10,10
+gpt-4.1,HistoryAccumulation,cybersecurity incident response,3,10,10
+gpt-4.1,HistoryAccumulation,e-commerce recommendation,0,0,10
+gpt-4.1,HistoryAccumulation,e-commerce recommendation,1,0,10
+gpt-4.1,HistoryAccumulation,e-commerce recommendation,2,0,10
+gpt-4.1,HistoryAccumulation,e-commerce recommendation,3,0,10
+gpt-4.1,HistoryAccumulation,financial fraud detection,0,0,10
+gpt-4.1,HistoryAccumulation,financial fraud detection,1,0,10
+gpt-4.1,HistoryAccumulation,financial fraud detection,2,10,10
+gpt-4.1,HistoryAccumulation,financial fraud detection,3,10,10
+gpt-4.1,HistoryAccumulation,government permit approval,0,0,10
+gpt-4.1,HistoryAccumulation,government permit approval,1,0,10
+gpt-4.1,HistoryAccumulation,government permit approval,2,10,10
+gpt-4.1,HistoryAccumulation,government permit approval,3,10,10
+gpt-4.1,HistoryAccumulation,healthcare AI diagnosis system,0,0,10
+gpt-4.1,HistoryAccumulation,healthcare AI diagnosis system,1,0,10
+gpt-4.1,HistoryAccumulation,healthcare AI diagnosis system,2,10,10
+gpt-4.1,HistoryAccumulation,healthcare AI diagnosis system,3,10,10
+gpt-4.1,HistoryAccumulation,insurance claim processing,0,0,10
+gpt-4.1,HistoryAccumulation,insurance claim processing,1,10,10
+gpt-4.1,HistoryAccumulation,insurance claim processing,2,10,10
+gpt-4.1,HistoryAccumulation,insurance claim processing,3,10,10
+gpt-4.1,HistoryAccumulation,legal document processing,0,0,10
+gpt-4.1,HistoryAccumulation,legal document processing,1,0,10
+gpt-4.1,HistoryAccumulation,legal document processing,2,10,10
+gpt-4.1,HistoryAccumulation,legal document processing,3,10,10
+gpt-4.1,HistoryAccumulation,news fact-checking system,0,0,10
+gpt-4.1,HistoryAccumulation,news fact-checking system,1,0,10
+gpt-4.1,HistoryAccumulation,news fact-checking system,2,10,10
+gpt-4.1,HistoryAccumulation,news fact-checking system,3,10,10
+gpt-4.1,HistoryAccumulation,smart home automation,0,0,10
+gpt-4.1,HistoryAccumulation,smart home automation,1,0,10
+gpt-4.1,HistoryAccumulation,smart home automation,2,10,10
+gpt-4.1,HistoryAccumulation,smart home automation,3,10,10
+gpt-4.1,HistoryAccumulation,supply chain management,0,0,10
+gpt-4.1,HistoryAccumulation,supply chain management,1,0,10
+gpt-4.1,HistoryAccumulation,supply chain management,2,10,10
+gpt-4.1,HistoryAccumulation,supply chain management,3,10,10
+gpt-4.1,ProxyPipeline,HR candidate screening,0,0,10
+gpt-4.1,ProxyPipeline,HR candidate screening,1,0,10
+gpt-4.1,ProxyPipeline,HR candidate screening,2,6,10
+gpt-4.1,ProxyPipeline,HR candidate screening,3,10,10
+gpt-4.1,ProxyPipeline,academic research assistant,0,0,10
+gpt-4.1,ProxyPipeline,academic research assistant,1,0,10
+gpt-4.1,ProxyPipeline,academic research assistant,2,0,10
+gpt-4.1,ProxyPipeline,academic research assistant,3,0,10
+gpt-4.1,ProxyPipeline,autonomous code deployment,0,0,10
+gpt-4.1,ProxyPipeline,autonomous code deployment,1,0,10
+gpt-4.1,ProxyPipeline,autonomous code deployment,2,0,10
+gpt-4.1,ProxyPipeline,autonomous code deployment,3,0,10
+gpt-4.1,ProxyPipeline,content moderation platform,0,0,10
+gpt-4.1,ProxyPipeline,content moderation platform,1,10,10
+gpt-4.1,ProxyPipeline,content moderation platform,2,10,10
+gpt-4.1,ProxyPipeline,content moderation platform,3,10,10
+gpt-4.1,ProxyPipeline,customer data management,0,0,10
+gpt-4.1,ProxyPipeline,customer data management,1,0,10
+gpt-4.1,ProxyPipeline,customer data management,2,0,10
+gpt-4.1,ProxyPipeline,customer data management,3,0,10
+gpt-4.1,ProxyPipeline,cybersecurity incident response,0,0,10
+gpt-4.1,ProxyPipeline,cybersecurity incident response,1,0,10
+gpt-4.1,ProxyPipeline,cybersecurity incident response,2,10,10
+gpt-4.1,ProxyPipeline,cybersecurity incident response,3,10,10
+gpt-4.1,ProxyPipeline,e-commerce recommendation,0,0,10
+gpt-4.1,ProxyPipeline,e-commerce recommendation,1,0,10
+gpt-4.1,ProxyPipeline,e-commerce recommendation,2,0,10
+gpt-4.1,ProxyPipeline,e-commerce recommendation,3,0,10
+gpt-4.1,ProxyPipeline,financial fraud detection,0,0,10
+gpt-4.1,ProxyPipeline,financial fraud detection,1,0,10
+gpt-4.1,ProxyPipeline,financial fraud detection,2,10,10
+gpt-4.1,ProxyPipeline,financial fraud detection,3,10,10
+gpt-4.1,ProxyPipeline,government permit approval,0,0,10
+gpt-4.1,ProxyPipeline,government permit approval,1,4,10
+gpt-4.1,ProxyPipeline,government permit approval,2,10,10
+gpt-4.1,ProxyPipeline,government permit approval,3,10,10
+gpt-4.1,ProxyPipeline,healthcare AI diagnosis system,0,0,10
+gpt-4.1,ProxyPipeline,healthcare AI diagnosis system,1,0,10
+gpt-4.1,ProxyPipeline,healthcare AI diagnosis system,2,1,10
+gpt-4.1,ProxyPipeline,healthcare AI diagnosis system,3,1,10
+gpt-4.1,ProxyPipeline,insurance claim processing,0,0,10
+gpt-4.1,ProxyPipeline,insurance claim processing,1,9,10
+gpt-4.1,ProxyPipeline,insurance claim processing,2,10,10
+gpt-4.1,ProxyPipeline,insurance claim processing,3,10,10
+gpt-4.1,ProxyPipeline,legal document processing,0,0,10
+gpt-4.1,ProxyPipeline,legal document processing,1,0,10
+gpt-4.1,ProxyPipeline,legal document processing,2,0,10
+gpt-4.1,ProxyPipeline,legal document processing,3,0,10
+gpt-4.1,ProxyPipeline,news fact-checking system,0,0,10
+gpt-4.1,ProxyPipeline,news fact-checking system,1,1,10
+gpt-4.1,ProxyPipeline,news fact-checking system,2,2,10
+gpt-4.1,ProxyPipeline,news fact-checking system,3,5,10
+gpt-4.1,ProxyPipeline,smart home automation,0,0,10
+gpt-4.1,ProxyPipeline,smart home automation,1,0,10
+gpt-4.1,ProxyPipeline,smart home automation,2,2,10
+gpt-4.1,ProxyPipeline,smart home automation,3,7,10
+gpt-4.1,ProxyPipeline,supply chain management,0,0,10
+gpt-4.1,ProxyPipeline,supply chain management,1,6,10
+gpt-4.1,ProxyPipeline,supply chain management,2,1,10
+gpt-4.1,ProxyPipeline,supply chain management,3,5,10
+gpt-5-mini,HistoryAccumulation,HR candidate screening,0,0,10
+gpt-5-mini,HistoryAccumulation,HR candidate screening,1,0,10
+gpt-5-mini,HistoryAccumulation,HR candidate screening,2,0,10
+gpt-5-mini,HistoryAccumulation,HR candidate screening,3,0,10
+gpt-5-mini,HistoryAccumulation,academic research assistant,0,0,10
+gpt-5-mini,HistoryAccumulation,academic research assistant,1,0,10
+gpt-5-mini,HistoryAccumulation,academic research assistant,2,0,10
+gpt-5-mini,HistoryAccumulation,academic research assistant,3,0,10
+gpt-5-mini,HistoryAccumulation,autonomous code deployment,0,0,10
+gpt-5-mini,HistoryAccumulation,autonomous code deployment,1,0,10
+gpt-5-mini,HistoryAccumulation,autonomous code deployment,2,0,10
+gpt-5-mini,HistoryAccumulation,autonomous code deployment,3,0,10
+gpt-5-mini,HistoryAccumulation,content moderation platform,0,0,10
+gpt-5-mini,HistoryAccumulation,content moderation platform,1,0,10
+gpt-5-mini,HistoryAccumulation,content moderation platform,2,0,10
+gpt-5-mini,HistoryAccumulation,content moderation platform,3,0,10
+gpt-5-mini,HistoryAccumulation,customer data management,0,0,10
+gpt-5-mini,HistoryAccumulation,customer data management,1,0,10
+gpt-5-mini,HistoryAccumulation,customer data management,2,0,10
+gpt-5-mini,HistoryAccumulation,customer data management,3,0,10
+gpt-5-mini,HistoryAccumulation,cybersecurity incident response,0,0,10
+gpt-5-mini,HistoryAccumulation,cybersecurity incident response,1,0,10
+gpt-5-mini,HistoryAccumulation,cybersecurity incident response,2,0,10
+gpt-5-mini,HistoryAccumulation,cybersecurity incident response,3,0,10
+gpt-5-mini,HistoryAccumulation,e-commerce recommendation,0,0,10
+gpt-5-mini,HistoryAccumulation,e-commerce recommendation,1,0,10
+gpt-5-mini,HistoryAccumulation,e-commerce recommendation,2,0,10
+gpt-5-mini,HistoryAccumulation,e-commerce recommendation,3,0,10
+gpt-5-mini,HistoryAccumulation,financial fraud detection,0,0,10
+gpt-5-mini,HistoryAccumulation,financial fraud detection,1,0,10
+gpt-5-mini,HistoryAccumulation,financial fraud detection,2,0,10
+gpt-5-mini,HistoryAccumulation,financial fraud detection,3,0,10
+gpt-5-mini,HistoryAccumulation,government permit approval,0,0,10
+gpt-5-mini,HistoryAccumulation,government permit approval,1,0,10
+gpt-5-mini,HistoryAccumulation,government permit approval,2,0,10
+gpt-5-mini,HistoryAccumulation,government permit approval,3,7,10
+gpt-5-mini,HistoryAccumulation,healthcare AI diagnosis system,0,0,10
+gpt-5-mini,HistoryAccumulation,healthcare AI diagnosis system,1,0,10
+gpt-5-mini,HistoryAccumulation,healthcare AI diagnosis system,2,0,10
+gpt-5-mini,HistoryAccumulation,healthcare AI diagnosis system,3,0,10
+gpt-5-mini,HistoryAccumulation,insurance claim processing,0,0,10
+gpt-5-mini,HistoryAccumulation,insurance claim processing,1,0,10
+gpt-5-mini,HistoryAccumulation,insurance claim processing,2,10,10
+gpt-5-mini,HistoryAccumulation,insurance claim processing,3,10,10
+gpt-5-mini,HistoryAccumulation,legal document processing,0,0,10
+gpt-5-mini,HistoryAccumulation,legal document processing,1,0,10
+gpt-5-mini,HistoryAccumulation,legal document processing,2,0,10
+gpt-5-mini,HistoryAccumulation,legal document processing,3,0,10
+gpt-5-mini,HistoryAccumulation,news fact-checking system,0,0,10
+gpt-5-mini,HistoryAccumulation,news fact-checking system,1,0,10
+gpt-5-mini,HistoryAccumulation,news fact-checking system,2,0,10
+gpt-5-mini,HistoryAccumulation,news fact-checking system,3,0,10
+gpt-5-mini,HistoryAccumulation,smart home automation,0,0,10
+gpt-5-mini,HistoryAccumulation,smart home automation,1,0,10
+gpt-5-mini,HistoryAccumulation,smart home automation,2,0,10
+gpt-5-mini,HistoryAccumulation,smart home automation,3,0,10
+gpt-5-mini,HistoryAccumulation,supply chain management,0,0,10
+gpt-5-mini,HistoryAccumulation,supply chain management,1,0,10
+gpt-5-mini,HistoryAccumulation,supply chain management,2,0,10
+gpt-5-mini,HistoryAccumulation,supply chain management,3,0,10
+gpt-5-mini,ProxyPipeline,HR candidate screening,0,0,10
+gpt-5-mini,ProxyPipeline,HR candidate screening,1,0,10
+gpt-5-mini,ProxyPipeline,HR candidate screening,2,0,10
+gpt-5-mini,ProxyPipeline,HR candidate screening,3,0,10
+gpt-5-mini,ProxyPipeline,academic research assistant,0,0,10
+gpt-5-mini,ProxyPipeline,academic research assistant,1,0,10
+gpt-5-mini,ProxyPipeline,academic research assistant,2,0,10
+gpt-5-mini,ProxyPipeline,academic research assistant,3,0,10
+gpt-5-mini,ProxyPipeline,autonomous code deployment,0,0,10
+gpt-5-mini,ProxyPipeline,autonomous code deployment,1,0,10
+gpt-5-mini,ProxyPipeline,autonomous code deployment,2,0,10
+gpt-5-mini,ProxyPipeline,autonomous code deployment,3,0,10
+gpt-5-mini,ProxyPipeline,content moderation platform,0,0,10
+gpt-5-mini,ProxyPipeline,content moderation platform,1,0,10
+gpt-5-mini,ProxyPipeline,content moderation platform,2,0,10
+gpt-5-mini,ProxyPipeline,content moderation platform,3,1,10
+gpt-5-mini,ProxyPipeline,customer data management,0,0,10
+gpt-5-mini,ProxyPipeline,customer data management,1,0,10
+gpt-5-mini,ProxyPipeline,customer data management,2,0,10
+gpt-5-mini,ProxyPipeline,customer data management,3,0,10
+gpt-5-mini,ProxyPipeline,cybersecurity incident response,0,0,10
+gpt-5-mini,ProxyPipeline,cybersecurity incident response,1,0,10
+gpt-5-mini,ProxyPipeline,cybersecurity incident response,2,0,10
+gpt-5-mini,ProxyPipeline,cybersecurity incident response,3,0,10
+gpt-5-mini,ProxyPipeline,e-commerce recommendation,0,0,10
+gpt-5-mini,ProxyPipeline,e-commerce recommendation,1,0,10
+gpt-5-mini,ProxyPipeline,e-commerce recommendation,2,0,10
+gpt-5-mini,ProxyPipeline,e-commerce recommendation,3,0,10
+gpt-5-mini,ProxyPipeline,financial fraud detection,0,0,10
+gpt-5-mini,ProxyPipeline,financial fraud detection,1,0,10
+gpt-5-mini,ProxyPipeline,financial fraud detection,2,5,10
+gpt-5-mini,ProxyPipeline,financial fraud detection,3,4,10
+gpt-5-mini,ProxyPipeline,government permit approval,0,0,10
+gpt-5-mini,ProxyPipeline,government permit approval,1,0,10
+gpt-5-mini,ProxyPipeline,government permit approval,2,0,10
+gpt-5-mini,ProxyPipeline,government permit approval,3,0,10
+gpt-5-mini,ProxyPipeline,healthcare AI diagnosis system,0,0,10
+gpt-5-mini,ProxyPipeline,healthcare AI diagnosis system,1,0,10
+gpt-5-mini,ProxyPipeline,healthcare AI diagnosis system,2,0,10
+gpt-5-mini,ProxyPipeline,healthcare AI diagnosis system,3,0,10
+gpt-5-mini,ProxyPipeline,insurance claim processing,0,0,10
+gpt-5-mini,ProxyPipeline,insurance claim processing,1,10,10
+gpt-5-mini,ProxyPipeline,insurance claim processing,2,4,10
+gpt-5-mini,ProxyPipeline,insurance claim processing,3,10,10
+gpt-5-mini,ProxyPipeline,legal document processing,0,0,10
+gpt-5-mini,ProxyPipeline,legal document processing,1,0,10
+gpt-5-mini,ProxyPipeline,legal document processing,2,0,10
+gpt-5-mini,ProxyPipeline,legal document processing,3,0,10
+gpt-5-mini,ProxyPipeline,news fact-checking system,0,0,10
+gpt-5-mini,ProxyPipeline,news fact-checking system,1,0,10
+gpt-5-mini,ProxyPipeline,news fact-checking system,2,0,10
+gpt-5-mini,ProxyPipeline,news fact-checking system,3,0,10
+gpt-5-mini,ProxyPipeline,smart home automation,0,0,10
+gpt-5-mini,ProxyPipeline,smart home automation,1,0,10
+gpt-5-mini,ProxyPipeline,smart home automation,2,0,10
+gpt-5-mini,ProxyPipeline,smart home automation,3,0,10
+gpt-5-mini,ProxyPipeline,supply chain management,0,0,10
+gpt-5-mini,ProxyPipeline,supply chain management,1,0,10
+gpt-5-mini,ProxyPipeline,supply chain management,2,1,10
+gpt-5-mini,ProxyPipeline,supply chain management,3,0,10
+gpt-5.6-luna,HistoryAccumulation,HR candidate screening,0,0,10
+gpt-5.6-luna,HistoryAccumulation,HR candidate screening,1,0,10
+gpt-5.6-luna,HistoryAccumulation,HR candidate screening,2,0,10
+gpt-5.6-luna,HistoryAccumulation,HR candidate screening,3,0,10
+gpt-5.6-luna,HistoryAccumulation,academic research assistant,0,0,10
+gpt-5.6-luna,HistoryAccumulation,academic research assistant,1,0,10
+gpt-5.6-luna,HistoryAccumulation,academic research assistant,2,0,10
+gpt-5.6-luna,HistoryAccumulation,academic research assistant,3,0,10
+gpt-5.6-luna,HistoryAccumulation,autonomous code deployment,0,0,10
+gpt-5.6-luna,HistoryAccumulation,autonomous code deployment,1,0,10
+gpt-5.6-luna,HistoryAccumulation,autonomous code deployment,2,0,10
+gpt-5.6-luna,HistoryAccumulation,autonomous code deployment,3,0,10
+gpt-5.6-luna,HistoryAccumulation,content moderation platform,0,0,10
+gpt-5.6-luna,HistoryAccumulation,content moderation platform,1,0,10
+gpt-5.6-luna,HistoryAccumulation,content moderation platform,2,0,10
+gpt-5.6-luna,HistoryAccumulation,content moderation platform,3,0,10
+gpt-5.6-luna,HistoryAccumulation,customer data management,0,0,10
+gpt-5.6-luna,HistoryAccumulation,customer data management,1,0,10
+gpt-5.6-luna,HistoryAccumulation,customer data management,2,0,10
+gpt-5.6-luna,HistoryAccumulation,customer data management,3,0,10
+gpt-5.6-luna,HistoryAccumulation,cybersecurity incident response,0,0,10
+gpt-5.6-luna,HistoryAccumulation,cybersecurity incident response,1,0,10
+gpt-5.6-luna,HistoryAccumulation,cybersecurity incident response,2,0,10
+gpt-5.6-luna,HistoryAccumulation,cybersecurity incident response,3,0,10
+gpt-5.6-luna,HistoryAccumulation,e-commerce recommendation,0,0,10
+gpt-5.6-luna,HistoryAccumulation,e-commerce recommendation,1,0,10
+gpt-5.6-luna,HistoryAccumulation,e-commerce recommendation,2,0,10
+gpt-5.6-luna,HistoryAccumulation,e-commerce recommendation,3,0,10
+gpt-5.6-luna,HistoryAccumulation,financial fraud detection,0,0,10
+gpt-5.6-luna,HistoryAccumulation,financial fraud detection,1,0,10
+gpt-5.6-luna,HistoryAccumulation,financial fraud detection,2,0,10
+gpt-5.6-luna,HistoryAccumulation,financial fraud detection,3,9,10
+gpt-5.6-luna,HistoryAccumulation,government permit approval,0,0,10
+gpt-5.6-luna,HistoryAccumulation,government permit approval,1,0,10
+gpt-5.6-luna,HistoryAccumulation,government permit approval,2,0,10
+gpt-5.6-luna,HistoryAccumulation,government permit approval,3,0,10
+gpt-5.6-luna,HistoryAccumulation,healthcare AI diagnosis system,0,0,10
+gpt-5.6-luna,HistoryAccumulation,healthcare AI diagnosis system,1,0,10
+gpt-5.6-luna,HistoryAccumulation,healthcare AI diagnosis system,2,0,10
+gpt-5.6-luna,HistoryAccumulation,healthcare AI diagnosis system,3,0,10
+gpt-5.6-luna,HistoryAccumulation,insurance claim processing,0,0,10
+gpt-5.6-luna,HistoryAccumulation,insurance claim processing,1,0,10
+gpt-5.6-luna,HistoryAccumulation,insurance claim processing,2,0,10
+gpt-5.6-luna,HistoryAccumulation,insurance claim processing,3,0,10
+gpt-5.6-luna,HistoryAccumulation,legal document processing,0,0,10
+gpt-5.6-luna,HistoryAccumulation,legal document processing,1,0,10
+gpt-5.6-luna,HistoryAccumulation,legal document processing,2,0,10
+gpt-5.6-luna,HistoryAccumulation,legal document processing,3,0,10
+gpt-5.6-luna,HistoryAccumulation,news fact-checking system,0,0,10
+gpt-5.6-luna,HistoryAccumulation,news fact-checking system,1,0,10
+gpt-5.6-luna,HistoryAccumulation,news fact-checking system,2,0,10
+gpt-5.6-luna,HistoryAccumulation,news fact-checking system,3,0,10
+gpt-5.6-luna,HistoryAccumulation,smart home automation,0,0,10
+gpt-5.6-luna,HistoryAccumulation,smart home automation,1,0,10
+gpt-5.6-luna,HistoryAccumulation,smart home automation,2,0,10
+gpt-5.6-luna,HistoryAccumulation,smart home automation,3,0,10
+gpt-5.6-luna,HistoryAccumulation,supply chain management,0,0,10
+gpt-5.6-luna,HistoryAccumulation,supply chain management,1,0,10
+gpt-5.6-luna,HistoryAccumulation,supply chain management,2,0,10
+gpt-5.6-luna,HistoryAccumulation,supply chain management,3,0,10
+gpt-5.6-luna,ProxyPipeline,HR candidate screening,0,0,10
+gpt-5.6-luna,ProxyPipeline,HR candidate screening,1,0,10
+gpt-5.6-luna,ProxyPipeline,HR candidate screening,2,0,10
+gpt-5.6-luna,ProxyPipeline,HR candidate screening,3,0,10
+gpt-5.6-luna,ProxyPipeline,academic research assistant,0,0,10
+gpt-5.6-luna,ProxyPipeline,academic research assistant,1,0,10
+gpt-5.6-luna,ProxyPipeline,academic research assistant,2,0,10
+gpt-5.6-luna,ProxyPipeline,academic research assistant,3,0,10
+gpt-5.6-luna,ProxyPipeline,autonomous code deployment,0,0,10
+gpt-5.6-luna,ProxyPipeline,autonomous code deployment,1,0,10
+gpt-5.6-luna,ProxyPipeline,autonomous code deployment,2,0,10
+gpt-5.6-luna,ProxyPipeline,autonomous code deployment,3,0,10
+gpt-5.6-luna,ProxyPipeline,content moderation platform,0,0,10
+gpt-5.6-luna,ProxyPipeline,content moderation platform,1,0,10
+gpt-5.6-luna,ProxyPipeline,content moderation platform,2,0,10
+gpt-5.6-luna,ProxyPipeline,content moderation platform,3,0,10
+gpt-5.6-luna,ProxyPipeline,customer data management,0,0,10
+gpt-5.6-luna,ProxyPipeline,customer data management,1,0,10
+gpt-5.6-luna,ProxyPipeline,customer data management,2,0,10
+gpt-5.6-luna,ProxyPipeline,customer data management,3,0,10
+gpt-5.6-luna,ProxyPipeline,cybersecurity incident response,0,0,10
+gpt-5.6-luna,ProxyPipeline,cybersecurity incident response,1,0,10
+gpt-5.6-luna,ProxyPipeline,cybersecurity incident response,2,0,10
+gpt-5.6-luna,ProxyPipeline,cybersecurity incident response,3,0,10
+gpt-5.6-luna,ProxyPipeline,e-commerce recommendation,0,0,10
+gpt-5.6-luna,ProxyPipeline,e-commerce recommendation,1,0,10
+gpt-5.6-luna,ProxyPipeline,e-commerce recommendation,2,0,10
+gpt-5.6-luna,ProxyPipeline,e-commerce recommendation,3,0,10
+gpt-5.6-luna,ProxyPipeline,financial fraud detection,0,0,10
+gpt-5.6-luna,ProxyPipeline,financial fraud detection,1,0,10
+gpt-5.6-luna,ProxyPipeline,financial fraud detection,2,0,10
+gpt-5.6-luna,ProxyPipeline,financial fraud detection,3,0,10
+gpt-5.6-luna,ProxyPipeline,government permit approval,0,0,10
+gpt-5.6-luna,ProxyPipeline,government permit approval,1,0,10
+gpt-5.6-luna,ProxyPipeline,government permit approval,2,0,10
+gpt-5.6-luna,ProxyPipeline,government permit approval,3,0,10
+gpt-5.6-luna,ProxyPipeline,healthcare AI diagnosis system,0,0,10
+gpt-5.6-luna,ProxyPipeline,healthcare AI diagnosis system,1,0,10
+gpt-5.6-luna,ProxyPipeline,healthcare AI diagnosis system,2,0,10
+gpt-5.6-luna,ProxyPipeline,healthcare AI diagnosis system,3,0,10
+gpt-5.6-luna,ProxyPipeline,insurance claim processing,0,0,10
+gpt-5.6-luna,ProxyPipeline,insurance claim processing,1,4,10
+gpt-5.6-luna,ProxyPipeline,insurance claim processing,2,4,10
+gpt-5.6-luna,ProxyPipeline,insurance claim processing,3,10,10
+gpt-5.6-luna,ProxyPipeline,legal document processing,0,0,10
+gpt-5.6-luna,ProxyPipeline,legal document processing,1,0,10
+gpt-5.6-luna,ProxyPipeline,legal document processing,2,0,10
+gpt-5.6-luna,ProxyPipeline,legal document processing,3,0,10
+gpt-5.6-luna,ProxyPipeline,news fact-checking system,0,0,10
+gpt-5.6-luna,ProxyPipeline,news fact-checking system,1,0,10
+gpt-5.6-luna,ProxyPipeline,news fact-checking system,2,1,10
+gpt-5.6-luna,ProxyPipeline,news fact-checking system,3,1,10
+gpt-5.6-luna,ProxyPipeline,smart home automation,0,0,10
+gpt-5.6-luna,ProxyPipeline,smart home automation,1,0,10
+gpt-5.6-luna,ProxyPipeline,smart home automation,2,0,10
+gpt-5.6-luna,ProxyPipeline,smart home automation,3,0,10
+gpt-5.6-luna,ProxyPipeline,supply chain management,0,0,10
+gpt-5.6-luna,ProxyPipeline,supply chain management,1,0,10
+gpt-5.6-luna,ProxyPipeline,supply chain management,2,0,10
+gpt-5.6-luna,ProxyPipeline,supply chain management,3,0,10
