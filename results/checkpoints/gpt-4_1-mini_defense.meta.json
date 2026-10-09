@@ -1,0 +1,10 @@
+{
+  "model": "gpt-4.1-mini",
+  "scenario_sha256": "ede8e836aad94d5ac94ac5f8898b43e53c90666441dba98c51a268eff33f613e",
+  "trials": "5+3",
+  "depths": [
+    3
+  ],
+  "scenario_count": 15,
+  "pilot": false
+}
