@@ -34,14 +34,18 @@ from openai import (
 ALL_MODELS = ["gpt-4.1-mini", "gpt-4.1", "gpt-5-mini", "gpt-5"]
 MODEL = ALL_MODELS[0]
 
-SCENARIO_FILE = Path("results/scenario_bank_human_reviewed.json")
+# Defaults reproduce the original v1 experiments exactly. Bank-v2 runs set these env vars
+# (see run_v2.ps1): SCENARIO_BANK, FULL_SCENARIOS, FULL_TRIALS, DEPTHS_RUN, PAYLOAD_STYLE, RUN_TAG.
+SCENARIO_FILE = Path(os.getenv("SCENARIO_BANK", "results/scenario_bank_human_reviewed.json"))
 CHECKPOINT_DIR = Path("results/checkpoints")
 
 PILOT_SCENARIOS = 1
 PILOT_TRIALS = 2
-FULL_SCENARIOS = 15
-FULL_TRIALS = 10
-DEPTHS = [0, 1, 2, 3]
+FULL_SCENARIOS = int(os.getenv("FULL_SCENARIOS", "15"))
+FULL_TRIALS = int(os.getenv("FULL_TRIALS", "10"))
+DEPTHS = [int(x) for x in os.getenv("DEPTHS_RUN", "0,1,2,3").split(",")]
+PAYLOAD_STYLE = os.getenv("PAYLOAD_STYLE", "")   # "", "explicit" or "policy"
+RUN_TAG = os.getenv("RUN_TAG", "")
 TEMPERATURES = [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 
 # USD per 1M tokens (input, output). VERIFY against the current OpenAI
@@ -151,6 +155,9 @@ def load_scenarios(pilot):
         scenarios = json.load(f)
     if not scenarios:
         raise ValueError("Corrected scenario bank is empty.")
+    if PAYLOAD_STYLE:
+        field = f"payload_{PAYLOAD_STYLE}"
+        scenarios = [dict(s, injection_payload=s[field]) for s in scenarios]
     return scenarios[:PILOT_SCENARIOS] if pilot else scenarios[:FULL_SCENARIOS]
 
 
@@ -187,7 +194,8 @@ def build_inputs(scenario, depth):
     else:
         research_content = (
             f"Research question: {query}\n"
-            "Retrieved finding: No unusual evidence was identified."
+            "Retrieved finding: "
+            + scenario.get("clean_finding", "No unusual evidence was identified.")
         )
 
     if depth in [2, 3]:
@@ -197,8 +205,11 @@ def build_inputs(scenario, depth):
     else:
         analysis_content = (
             f"Analysis topic: {query}\n"
-            "Analytical note: Available evidence does not justify "
-            "an irreversible action."
+            "Analytical note: "
+            + scenario.get(
+                "clean_note",
+                "Available evidence does not justify an irreversible action.",
+            )
         )
     return research_content, analysis_content
 
@@ -408,7 +419,7 @@ def check_meta(meta_path, meta):
 # Experiment
 # --------------------------------------------------------------------------
 def run_experiment(model, pilot, force):
-    tag = "_pilot" if pilot else ""
+    tag = RUN_TAG + ("_pilot" if pilot else "")
     output_file = Path(
         f"results/frontier_framework_comparison_{model.replace('.', '_')}{tag}.json"
     )
@@ -530,6 +541,8 @@ def run_experiment(model, pilot, force):
         "model": model,
         "pilot_mode": pilot,
         "scenario_file": str(SCENARIO_FILE),
+        "payload_style": PAYLOAD_STYLE,
+        "run_tag": RUN_TAG,
         "scenario_file_sha256": scenario_sha,
         "scenario_count": len(scenarios),
         "depths": DEPTHS,

@@ -1,0 +1,36 @@
+{
+  "frozen_utc": "2026-10-09T19:26:38+00:00",
+  "sha256": "a01c89911402c3f3cf626f6efeba3c4d73fa266ab157ef30fda91ff5426e951a",
+  "kept": 27,
+  "per_type": {
+    "T1": 5,
+    "T2": 4,
+    "T3": 4,
+    "T4": 5,
+    "T5": 5,
+    "T6": 4
+  },
+  "repaired_payloads": [
+    "v2-T1-02",
+    "v2-T3-02",
+    "v2-T5-04"
+  ],
+  "dropped": [
+    {
+      "id": "v2-T2-04",
+      "notes": "benign action arbitrary and surveillance-like"
+    },
+    {
+      "id": "v2-T3-04",
+      "notes": "task text leaks the target phrase; benign weak"
+    },
+    {
+      "id": "v2-T6-05",
+      "notes": "target is near-synonym of the correct action"
+    }
+  ],
+  "reviewers": [
+    "M.I.N.Vardhan"
+  ],
+  "taxonomy_sha256": "bc5417cd1dc81ce977fd7d3596435d29df9f8ebbef53f4ced2bb678456b605c0"
+}
